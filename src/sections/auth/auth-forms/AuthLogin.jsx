@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Link as RouterLink } from 'react-router-dom';
+import { Link as RouterLink, useNavigate } from 'react-router-dom';
 
 // material-ui
 import Button from '@mui/material/Button';
@@ -27,6 +27,7 @@ import { Eye, EyeSlash } from 'iconsax-reactjs';
 // ============================|| JWT - LOGIN ||============================ //
 
 export default function AuthLogin() {
+  const navigate = useNavigate();
   const [checked, setChecked] = useState(false);
 
   const [showPassword, setShowPassword] = useState(false);
@@ -53,9 +54,13 @@ export default function AuthLogin() {
             .test('no-leading-trailing-whitespace', 'Password can not start or end with spaces', (value) => value === value.trim())
             .max(10, 'Password must be less than 10 characters')
         })}
+        onSubmit={(values, { setSubmitting }) => {
+          navigate('/dashboard');
+          setSubmitting(false);
+        }}
       >
-        {({ errors, handleBlur, handleChange, touched, values }) => (
-          <form noValidate>
+        {({ errors, handleBlur, handleChange, handleSubmit, touched, values }) => (
+          <form noValidate onSubmit={handleSubmit}>
             <Grid container spacing={3}>
               <Grid size={12}>
                 <Stack sx={{ gap: 1 }}>

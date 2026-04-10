@@ -19,6 +19,8 @@ const SamplePage = Loadable(lazy(() => import('pages/extra-pages/sample-page')))
 const UserRolesPage = Loadable(lazy(() => import('pages/extra-pages/user-roles')));
 
 // ==============================|| MAIN ROUTES ||============================== //
+const AuthLogin = Loadable(lazy(() => import('sections/auth/auth-forms/AuthLogin')));
+
 
 const MainRoutes = {
   path: '/',
