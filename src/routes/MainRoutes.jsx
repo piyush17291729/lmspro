@@ -16,6 +16,7 @@ const Shadow = Loadable(lazy(() => import('pages/component-overview/shadows')));
 
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('pages/extra-pages/sample-page')));
+const UserRolesPage = Loadable(lazy(() => import('pages/extra-pages/user-roles')));
 
 // ==============================|| MAIN ROUTES ||============================== //
 
@@ -89,6 +90,10 @@ const MainRoutes = {
         {
           path: 'reminders',
           element: <CustomerPage />
+        },
+        {
+          path: 'user-roles',
+          element: <UserRolesPage />
         }
       ]
     },

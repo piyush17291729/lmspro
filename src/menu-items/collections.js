@@ -14,7 +14,8 @@ const icons = {
   postCollection: Profile2User,
   completedLoans: Book1,
   misReports: DocumentCode2,
-  reminders: I24Support
+  reminders: I24Support,
+  userRoles: Profile2User
 };
 
 // ==============================|| MENU ITEMS - SALES & LEADS ||============================== //
@@ -65,7 +66,8 @@ const collections = [
     type: 'group',
     children: [
       { id: 'mis-reports', title: 'MIS Reports', type: 'item', url: '/mis-reports', icon: icons.misReports, breadcrumbs: false },
-      { id: 'reminders', title: 'Reminders', type: 'item', url: '/reminders', icon: icons.reminders, breadcrumbs: false }
+      { id: 'reminders', title: 'Reminders', type: 'item', url: '/reminders', icon: icons.reminders, breadcrumbs: false },
+      { id: 'user-roles', title: 'User Roles', type: 'item', url: '/user-roles', icon: icons.userRoles, breadcrumbs: false }
     ]
   }
 ];

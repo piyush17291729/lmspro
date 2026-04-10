@@ -1312,50 +1312,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"able-pro-react-free-admin-dashboard@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "able-pro-react-free-admin-dashboard@workspace:."
-  dependencies:
-    "@emotion/cache": "npm:11.14.0"
-    "@emotion/react": "npm:11.14.0"
-    "@emotion/styled": "npm:11.14.1"
-    "@eslint/compat": "npm:2.0.0"
-    "@eslint/eslintrc": "npm:3.3.3"
-    "@eslint/js": "npm:9.39.2"
-    "@fontsource/inter": "npm:5.2.8"
-    "@mui/lab": "npm:7.0.1-beta.20"
-    "@mui/material": "npm:7.3.6"
-    "@mui/system": "npm:7.3.6"
-    "@vitejs/plugin-react": "npm:5.1.2"
-    apexcharts: "npm:5.3.6"
-    eslint: "npm:9.39.2"
-    eslint-config-prettier: "npm:10.1.8"
-    eslint-plugin-jsx-a11y: "npm:6.10.2"
-    eslint-plugin-prettier: "npm:5.5.4"
-    eslint-plugin-react: "npm:7.37.5"
-    eslint-plugin-react-hooks: "npm:7.0.1"
-    formik: "npm:2.4.9"
-    framer-motion: "npm:12.23.26"
-    iconsax-reactjs: "npm:0.0.8"
-    immutable: "npm:5.1.4"
-    lodash-es: "npm:4.17.22"
-    prettier: "npm:3.7.4"
-    prop-types: "npm:15.8.1"
-    react: "npm:19.2.3"
-    react-apexcharts: "npm:1.9.0"
-    react-device-detect: "npm:2.2.3"
-    react-dom: "npm:19.2.3"
-    react-router: "npm:7.11.0"
-    react-router-dom: "npm:7.11.0"
-    simplebar-react: "npm:3.3.2"
-    swr: "npm:2.3.8"
-    vite: "npm:7.3.0"
-    vite-jsconfig-paths: "npm:2.0.1"
-    web-vitals: "npm:5.1.0"
-    yup: "npm:1.7.1"
-  languageName: unknown
-  linkType: soft
-
 "acorn-jsx@npm:^5.3.2":
   version: 5.3.2
   resolution: "acorn-jsx@npm:5.3.2"
@@ -1770,6 +1726,50 @@ __metadata:
   checksum: 10c0/b923ff6af581638128e5f074a5450ba12c0300b71302398ea38dbeabd33bbcaa0245ca9adbedfcf284a07da50f99ede5658c80bb3e39e2ce770a99d28a21ef03
   languageName: node
   linkType: hard
+
+"crednidhi-lms@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "crednidhi-lms@workspace:."
+  dependencies:
+    "@emotion/cache": "npm:11.14.0"
+    "@emotion/react": "npm:11.14.0"
+    "@emotion/styled": "npm:11.14.1"
+    "@eslint/compat": "npm:2.0.0"
+    "@eslint/eslintrc": "npm:3.3.3"
+    "@eslint/js": "npm:9.39.2"
+    "@fontsource/inter": "npm:5.2.8"
+    "@mui/lab": "npm:7.0.1-beta.20"
+    "@mui/material": "npm:7.3.6"
+    "@mui/system": "npm:7.3.6"
+    "@vitejs/plugin-react": "npm:5.1.2"
+    apexcharts: "npm:5.3.6"
+    eslint: "npm:9.39.2"
+    eslint-config-prettier: "npm:10.1.8"
+    eslint-plugin-jsx-a11y: "npm:6.10.2"
+    eslint-plugin-prettier: "npm:5.5.4"
+    eslint-plugin-react: "npm:7.37.5"
+    eslint-plugin-react-hooks: "npm:7.0.1"
+    formik: "npm:2.4.9"
+    framer-motion: "npm:12.23.26"
+    iconsax-reactjs: "npm:0.0.8"
+    immutable: "npm:5.1.4"
+    lodash-es: "npm:4.17.22"
+    prettier: "npm:3.7.4"
+    prop-types: "npm:15.8.1"
+    react: "npm:19.2.3"
+    react-apexcharts: "npm:1.9.0"
+    react-device-detect: "npm:2.2.3"
+    react-dom: "npm:19.2.3"
+    react-router: "npm:7.11.0"
+    react-router-dom: "npm:7.11.0"
+    simplebar-react: "npm:3.3.2"
+    swr: "npm:2.3.8"
+    vite: "npm:7.3.0"
+    vite-jsconfig-paths: "npm:2.0.1"
+    web-vitals: "npm:5.1.0"
+    yup: "npm:1.7.1"
+  languageName: unknown
+  linkType: soft
 
 "cross-spawn@npm:^7.0.6":
   version: 7.0.6
