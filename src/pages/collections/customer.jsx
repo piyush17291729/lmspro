@@ -10,6 +10,7 @@ import Chip from '@mui/material/Chip';
 import Divider from '@mui/material/Divider';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import InputAdornment from '@mui/material/InputAdornment';
+import IconButton from '@mui/material/IconButton';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Radio from '@mui/material/Radio';
@@ -25,6 +26,7 @@ import TableRow from '@mui/material/TableRow';
 import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import { SearchNormal1 } from 'iconsax-reactjs';
+import { Link as RouterLink } from 'react-router-dom';
 
 // project-imports
 import MainCard from 'components/MainCard';
@@ -808,7 +810,9 @@ export default function CustomerPage() {
                 </TableCell>
                 <TableCell>
                   <Stack direction="row" spacing={1.25} alignItems="center" color="text.secondary">
-                    <Eye size="16" color="currentColor" />
+                    <IconButton component={RouterLink} to={`/customer/view/${row.id}`} size="small" color="inherit">
+                      <Eye size="16" color="currentColor" />
+                    </IconButton>
                     <Edit2 size="16" color="currentColor" />
                     <Trash size="16" color="currentColor" />
                   </Stack>

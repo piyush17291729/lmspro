@@ -7,6 +7,7 @@ import DashboardLayout from 'layout/Dashboard';
 // render - Dashboard
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/default')));
 const CustomerPage = Loadable(lazy(() => import('pages/collections/customer')));
+const CustomerViewPage = Loadable(lazy(() => import('pages/collections/customer-view')));
 
 // render - utils components
 const Color = Loadable(lazy(() => import('pages/component-overview/color')));
@@ -40,6 +41,10 @@ const MainRoutes = {
         {
           path: 'customer',
           element: <CustomerPage />
+        },
+        {
+          path: 'customer/view/:id',
+          element: <CustomerViewPage />
         },
         {
           path: 'loans',
